@@ -1,0 +1,27 @@
+{
+  "name": "date-component",
+  "version": "1.0.0",
+  "description": "A quick package for formatting dates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanschun/date-component.git"
+  },
+  "keywords": [
+    "date",
+    "date-fns",
+    "format"
+  ],
+  "author": "Hans Chun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanschun/date-component/issues"
+  },
+  "homepage": "https://github.com/hanschun/date-component#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1"
+  }
+}
