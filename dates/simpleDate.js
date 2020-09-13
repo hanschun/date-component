@@ -1,4 +1,4 @@
-import {format} from 'date-fns'
+import {parseISO, format} from 'date-fns'
 
 /**
  * 
@@ -6,5 +6,6 @@ import {format} from 'date-fns'
  * @returns {string} a human-readable simple date
  */
 export default function simpleDate(dateString) {
-  return format(dateString, 'MM/dd/yyyy')
+  const date = parseISO(dateString)
+  return format(date, 'MM/dd/yyyy')
 }
